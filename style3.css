@@ -1,0 +1,147 @@
+/* Tablo stilleri */
+body {
+    height: 100vh;
+    background-color: #92a8d1;
+    background-size: cover;
+    background-position: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #ddd; /* Tablo rengi gri olarak ayarlanıyor */
+}
+
+/* Başlık hücreleri stilleri */
+th {
+    background-color: #660099;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid #660099;
+}
+
+/* Veri hücreleri stilleri */
+td {
+    padding: 10px;
+    border: 1px solid #660099;
+}
+
+/* Tablo konteynırı stilleri */
+.tables-container {
+    display: flex;
+    flex-direction: row-reverse; /* Burada "row-reverse" kullanarak sağdan sola sıralama sağlanır */
+}
+
+/* Input alanı stilleri */
+input[type="text"] {
+    width: 5%; /* Input alanının genişliği */
+    padding: 10px; /* Boşluklar */
+    border: 1px solid #ccc; /* Kenarlık rengi ve kalınlığı */
+    border-radius: 4px; /* Köşelerin yuvarlatılması */
+    box-sizing: border-box; /* Kenarlığın genişliği içeriğe dahil edilir */
+    font-size: 14px; /* Yazı boyutu */
+}
+
+/* Buton stilleri */
+input[type="submit"] {
+    padding: 10px 20px; /* Yükseklik ve genişlik */
+    background-color: red; /* Arka plan rengi */
+    color: white; /* Yazı rengi */
+    border: none; /* Kenarlık yok */
+    border-radius: 4px; /* Köşelerin yuvarlatılması */
+    cursor: pointer; /* Cursor şekli */
+    font-size: 14px; /* Yazı boyutu */
+}
+
+/* Form etiketi (Company Number yazısı) stilleri */
+form label {
+    color: darkred;
+    font-size: 16px; /* Yazı boyutu */
+    font-weight: bold; /* Kalın yazı */
+    margin-right: 10px; /* Sağ taraftan boşluk */
+}
+
+/* Sayfa ortasına hizalama */
+/* Sayfa ortasına hizalama */
+.LME {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh; /* Sayfa yüksekliğine göre ayarlayabilirsiniz */
+}
+
+.LME label,
+.LME input[type="text"],
+.LME input[type="submit"] {
+    margin: 5px;
+}
+
+/* "ZN Price" ve "PB Price" inputlarını yan yana hizala */
+.LME label[for="pb_price"],
+.LME input[name="pb_price"],
+.LME input[type="submit"] {
+    display: inline-block;
+}
+
+/* Stil dosyası: style3.css */
+
+.select-style {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    width: 7%;
+}
+
+.select-style option {
+    font-size: 16px;
+    background-color: white;
+    color: #333;
+}
+
+.home-link {
+    color: white;           /* Yazı rengi beyaz */
+    font-size: 24px;        /* Yazı boyutu büyük */
+    position: absolute;     /* Mutlak pozisyon */
+    top: 0;                 /* Sayfanın en üstüne hizalı */
+    right: 20px;            /* Sağdan 20px içeride */
+    text-decoration: none;  /* Alt çizgi olmadan */
+    padding: 10px 20px;     /* İç boşluk */
+    background-color: transparent; /* Arkaplan rengi saydam */
+    border: 2px solid white; /* Kenarlık */
+    border-radius: 10px;    /* Kenar yuvarlaklığı */
+}
+
+/* Sağ tarafta hizalama */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.form-group {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.form-group b {
+    margin-right: 10px;
+}
+
+.form-group input[type="text"] {
+    width: 150px;
+    padding: 5px;
+}
+
+.submit-button {
+    margin-top: 10px;
+}
+
+
+
